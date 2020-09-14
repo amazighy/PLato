@@ -1,0 +1,23 @@
+body {
+    padding: 1em !important;
+    margin: 1em !important;
+    overflow: hidden;
+    overflow-x: hidden;
+  }
+.parent-div {
+    display: flex;
+  }
+  
+  .first-div {
+    height: 100vh;
+    border: solid blue;
+   }
+   
+   .second-div {
+   height: 100vh;
+   border: solid red;
+   }
+
+   .btn {
+    color: black;
+  }
