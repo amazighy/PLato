@@ -4,18 +4,31 @@ body {
     overflow: hidden;
     overflow-x: hidden;
   }
+  
+  .padd{
+      padding-right:3rem
+  }
+
+  img  {
+     margin-top: -8rem;   
+     float: right;
+}
+  .header1{
+      display: inline-flexbox;
+  }
+
  .title{
     font-size: 30px;
    color: #808080
  }
      
-      h2{
-        color: black;
-        margin-top: 1em;
-        margin-left:1.5em;
-        font-size: 30px;
-        font-weight: bold;
-    }
+h2{
+    color: black;
+    margin-top: 1em;
+    margin-left:1.5em;
+    font-size: 30px;
+    font-weight: bold;
+}
       
 
   
@@ -24,13 +37,14 @@ body {
   }
   
   .first-div {
+      
     height: 100vh;
-    border: solid blue;
+    
    }
    
    .second-div {
    height: 100vh;
-   border: solid red;
+   
    }
 
    .btn {
@@ -38,19 +52,25 @@ body {
     font-weight: bold;
     font-size: larger;
     margin-top: -0.4em;
-      padding-top: -0.4em;
-      padding-bottom: 0.4em;
-      margin-bottom: -0.4em;
+    padding-top: -0.4em;
+    padding-bottom: 0.4em;
+    margin-bottom: -0.4em;
     text-align: left;
   }
 
 h3{
-    color: black;
-    margin-top: 3em;
-    margin-left:1.8em;
+    color: #f24637;
+    margin-top: 2em;
+    margin-left:1em;
     font-size: 35px;
-    font-weight: bold;
-    
+    font-weight: bold;   
+}
+p{
+    margin-top: 2em;
+    margin-left:2em;
+    font-weight: bolder;
+    color: #696969
+
 }
 
 
@@ -59,6 +79,12 @@ h3{
 .card-body{
     margin-left:3em;
     margin-top: -1.7em;
+    font-weight: bolder;
+    
+}
+
+a{
+    color: #f24637
 }
 /* 
   #card{
@@ -70,7 +96,7 @@ h3{
   } */
   .all-divs{
       margin-top: 3em;
-      margin-left:2em;
+      margin-left:0.4em;
       background-color: None;
   }
 
@@ -91,5 +117,8 @@ h3{
 
   .sub-title{
       font-size: 18px;
-      font-weight: lighter;
+     
+      color:#808080;
+      font-weight: bold;
   }
+
