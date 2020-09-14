@@ -1,8 +1,7 @@
 body {
     padding: 0 !important;
     margin: 0 !important;
-    overflow: hidden;
-    overflow-x: hidden;
+   
   }
   
   .padd{
@@ -122,3 +121,19 @@ a{
       font-weight: bold;
   }
 
+  @media screen and (max-width: 500px) {
+ 
+      
+    .second-div {
+      height: 100vh;
+      margin-top:8rem 
+      }
+
+      img  {
+        margin-top: -21.5rem;   
+        float: right;
+   }
+   .padd{
+    padding-right:1rem
+}
+  }
